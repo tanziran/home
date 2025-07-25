@@ -10,6 +10,16 @@
     "link": "https://lan.jzrm.eu.org/"
   },
   {
+    "icon": "Github",
+    "name": "Github Proxy",
+    "link": "https://gh.jzrm.eu.org/"
+  },
+  {
+    "icon": "Server",
+    "name": "Serv00 监控面板",
+    "link": "https://serv00.jzrm.eu.org/"
+  },
+  {
     "icon": "Compass",
     "name": "起始页",
     "link": "https://nav.jzrm.eu.org/"
