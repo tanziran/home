@@ -14,7 +14,7 @@
       <el-col :span="12" class="left">
         <div class="logo text-hidden">
           <span class="bg">{{ siteUrl[0] }}</span>
-          <span class="sm">.{{ siteUrl[1] }}</span>
+          <span class="sm">.{{ siteUrl.slice(1).join('.') }}</span>
         </div>
         <div class="version">
           <div class="num">v&nbsp;{{ config.version }}</div>
@@ -63,7 +63,7 @@ const closeShow = ref(false);
 // 站点链接
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "imsyy.top".split(".");
+  if (!url) return "jzrm.eu.org".split(".");
   // 判断协议前缀
   if (url.startsWith("http://") || url.startsWith("https://")) {
     const urlFormat = url.replace(/^(https?:\/\/)/, "");
