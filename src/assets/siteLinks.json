@@ -5,6 +5,11 @@
     "link": "https://blog.jzrm.eu.org/"
   },
   {
+    "icon": "Images",
+    "name": "图床",
+    "link": "https://img.jzrm.eu.org/"
+  },
+  {
     "icon": "Cloud",
     "name": "涟漪网盘",
     "link": "https://lan.jzrm.eu.org/"
@@ -18,11 +23,6 @@
     "icon": "Server",
     "name": "Serv00 监控",
     "link": "https://serv00.jzrm.eu.org/"
-  },
-  {
-    "icon": "Images",
-    "name": "图床",
-    "link": "https://img.jzrm.eu.org/"
   },
   {
     "icon": "Compass",
