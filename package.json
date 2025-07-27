@@ -4,7 +4,7 @@
   "github": "https://github.com/tanziran/home",
   "home": "https://jzrm.eu.org",
   "private": true,
-  "version": "4.1.4",
+  "version": "4.1.5",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
